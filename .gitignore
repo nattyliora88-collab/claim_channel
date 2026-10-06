@@ -1,0 +1,16 @@
+# ค่าเชื่อมต่อฐานจริง (มีรหัสผ่าน) - ใช้ db_settings.example.php เป็นตัวอย่าง
+db_settings.php
+
+# cache ในเครื่อง (มี HN ผู้ป่วย / ยอดรายวัน)
+cache/*
+!cache/.htaccess
+!cache/index.html
+
+# หน้าสำรองระหว่างพัฒนา
+index_v3.php
+index_v4.php
+index_tree.php
+index_cards.php
+
+*.zip
+*.log
